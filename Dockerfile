@@ -1,9 +1,5 @@
 FROM python:3.11-slim
 
-# Set environment variables
-ENV DEBIAN_FRONTEND=noninteractive
-ENV TZ=Asia/Kolkata
-
 # Set working directory
 WORKDIR /app
 
